@@ -1,10 +1,47 @@
 body {
-    padding: 10vmin;
+    padding: 5vmin;
+    padding-top: 2.5vmin;
 
-    background: #dedede;
+    background: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
+#Logo-box {
+    margin-bottom: 1vmin;
+}
+#Logo {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 4vmin;
+    line-height: 4vmin;
+    color: #6965FF;
+    width: 90vmin;
+
+    /* text-align: center; */
+}
+#Logo-text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 2vmin;
+    line-height: 2vmin;
+    color: #6965FF;
+
+    width: 90vmin;
+}
+
+.grid-padding {
+    height: 80vmin;
+    width: 80vmin;
+
+    padding: 5vmin;
+
+    background-color: #dedede;
+}
+.grid-box {
     height: 80vmin;
     width: 80vmin;
 
