@@ -1,0 +1,147 @@
+body {
+    padding: 10vmin;
+
+    background: #dedede;
+}
+
+.container {
+    height: 80vmin;
+    width: 80vmin;
+
+    display: grid;
+    align-content: space-between;
+    justify-content: stretch;
+}
+
+.grid {
+    display: grid;
+}
+
+.color-box {
+    background-color: black;
+    padding: 1vmin;
+
+    display: grid;
+    align-content: space-between;
+}
+.color-inform {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 2vmin;
+
+    display: flex;
+    justify-content: space-between;
+}
+.number-circle {
+    height: 3vmin;
+    width: 3vmin;
+
+    border-radius: 50%;
+
+    text-align: center;
+}
+
+.title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 2vmin;
+
+    line-height: 2vmin;
+}
+.korean-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 1vmin;
+}
+
+#Primary {
+    grid-template-columns: repeat(4, 1fr);
+
+    height: 24vmin;
+}
+#UI {
+    grid-template-columns: repeat(3, 1fr);
+
+    height: 12vmin;
+}
+#On-UI {
+    grid-template-columns: repeat(auto-fit, minmax(33%, auto));
+
+    height: 24vmin;
+}
+
+#On-UI-Part1 {
+    grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+
+    height: 50%;
+}
+#On-UI-Part2 {
+    grid-template-columns: repeat(auto-fit, minmax(33%, auto));
+
+    height: 50%;
+}
+
+.circle-black {
+    background-color: black;
+    color: white;
+}
+.circle-white {
+    background-color: white;
+    color: black;
+}
+
+#c1 {
+    background: #6965FF;
+    color: white;
+}
+#c2 {
+    background: #AAA8FF;
+    color: white;
+}
+#c3 {
+    background: ;
+    color: white;
+
+    border-right: 0.2vmin solid #DEDEDE;
+}
+#c4 {
+    background: ;
+    color: white;
+}
+#c5 {
+    background: #FFE8FE;
+    color: black;
+
+    border-right: 0.2vmin solid #DEDEDE;
+}
+#c6 {
+    background: #FFE8FE;
+    color: black;
+}
+#c7 {
+    background: #FF2F15;
+    color: white;
+}
+#c8 {
+    background: ;
+    color: white;
+
+    border-right: 0.2vmin solid #DEDEDE;
+}
+#c9 {
+    background: ;
+    color: white;
+}
+#c10 {
+    background: #606060;
+    color: white;
+    border-right: 0.2vmin solid #DEDEDE;
+}
+#c11 {
+    background: #606060;
+    color: white;
+}
+#c12 {
+    background: #FFFFFF;
+    color: blackF;
+}
